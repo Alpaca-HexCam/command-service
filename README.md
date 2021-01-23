@@ -45,16 +45,16 @@ curl localhost:8000/index
 ```
 Note: press Ctrl + C to stop (same thing on both Mac and Windows)dock
 
-## If you started the server using `startlocal.sh`
+## If you started the server using `docker`
 #### Test your urls
 ##### GET request
 ```bash
-curl localhost:5000/endpoint # For local builds
+curl localhost:8000/endpoint # For local builds
 ```
 
 ##### POST request
 ```bash
-curl -d '{"my_data": "inputs"}' localhost:5000/endpoint
+curl -d '{"my_data": "inputs"}' localhost:8000/endpoint
 ```
 
 

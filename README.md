@@ -16,7 +16,7 @@ E.g: `pipenv install <library-name>`
 Run `sh startlocal.sh` in top level directory
 
 
-## If you started the server using startlocal.sh
+## If you started the server using `startlocal.sh`
 #### Test your urls
 ##### GET request
 ```bash
@@ -45,7 +45,7 @@ curl localhost:8000/index
 ```
 Note: press Ctrl + C to stop (same thing on both Mac and Windows)dock
 
-## If you started the server using `flask run`
+## If you started the server using `startlocal.sh`
 #### Test your urls
 ##### GET request
 ```bash

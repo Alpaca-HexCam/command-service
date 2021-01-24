@@ -1,1 +1,2 @@
-GOOGLE_APPLICATION_CREDENTIALS=/Users/adrian/Development/command-service/server/creds/firebase.json flask run
+#!/bin/bash
+GOOGLE_APPLICATION_CREDENTIALS=$(pwd)/server/creds/firebase.json flask run
